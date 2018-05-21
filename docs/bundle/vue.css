@@ -390,10 +390,10 @@ body.sticky .sidebar-toggle {
 .markdown-section table {
   border-collapse: collapse;
   border-spacing: 0;
-  display: block;
   margin-bottom: 1rem;
   overflow: auto;
-  width: 100%
+  width: 100%;
+  margin-top:1rem;
 }
 
 .markdown-section th {
@@ -402,8 +402,8 @@ body.sticky .sidebar-toggle {
 
 .markdown-section td,
 .markdown-section th {
-  border: 1px solid #ddd;
-  padding: 6px 13px
+  border: 1px solid #EBEBEB;
+  padding: 8px 13px
 }
 
 .markdown-section tr {
@@ -412,7 +412,7 @@ body.sticky .sidebar-toggle {
 
 .markdown-section p.tip,
 .markdown-section tr:nth-child(2n) {
-  background-color: #f8f8f8
+  background-color: #F8F8F8
 }
 
 .markdown-section p.tip {
@@ -793,7 +793,7 @@ body {
 .markdown-section code {
   border-radius: 2px;
   color: #e96900;
-  font-size: .8rem;
+  font-size: .7rem;
   margin: 0 2px;
   padding: 3px 5px;
   white-space: pre-wrap
@@ -992,11 +992,12 @@ pre:after {
 .block{
   display:inline-block;
   width:100%;
-  margin:5px;
   height:40px;
   background:#99A9BF;
+  border:1px solid #fff;
+  border-radius:10px;
 }
-pre{
+pre[data-lang=html]{
   display:none;
   border-radius:0 0 5px 5px;
   border:1px solid #EBEBEB;
@@ -1010,7 +1011,7 @@ pre{
 .source{
   text-align:center;
   cursor: pointer;
-  margin:-20px 0 -17px 0 !important;
+  margin:-20px 0 1.2em 0 !important;
   background:#fff;
   border:1px solid #EAEEFB;
   padding:8px;
@@ -1018,6 +1019,7 @@ pre{
 }
 .source.show{
   border-radius:0;
+  margin:-20px 0 -17px 0 !important;
 }
 .source:hover{
   background:#F9FAFC;
