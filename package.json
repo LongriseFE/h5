@@ -1,0 +1,24 @@
+{
+  "name": "h5",
+  "version": "1.0.0",
+  "description": "手机",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LongriseFE/h5.git"
+  },
+  "keywords": [],
+  "author": "swimly <979741120@qq.com> (https://github.com/swimly)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LongriseFE/h5/issues"
+  },
+  "homepage": "https://github.com/LongriseFE/h5#readme"
+}

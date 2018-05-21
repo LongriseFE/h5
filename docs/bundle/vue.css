@@ -989,3 +989,37 @@ pre:after {
   height:667px;
   border:1px solid #eee;
 }
+.block{
+  display:inline-block;
+  width:100%;
+  margin:5px;
+  height:40px;
+  background:#99A9BF;
+}
+pre{
+  display:none;
+  border-radius:0 0 5px 5px;
+  border:1px solid #EBEBEB;
+  border-top:none;
+}
+.code-pre{
+  border:1px solid #EBEBEB;
+  padding:10px;
+  border-radius:5px 5px 0 0;
+}
+.source{
+  text-align:center;
+  cursor: pointer;
+  margin:-20px 0 -17px 0 !important;
+  background:#fff;
+  border:1px solid #EAEEFB;
+  padding:8px;
+  border-radius:0 0 5px 5px;
+}
+.source.show{
+  border-radius:0;
+}
+.source:hover{
+  background:#F9FAFC;
+  color:#249FEA;
+}
