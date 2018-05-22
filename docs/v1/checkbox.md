@@ -185,3 +185,633 @@
   </div>
 </div>
 ```
+###### 圆角复选按钮
+只需要在`hc-form-group`加上`hc-form-conner`即可！
+<div class="code-pre">
+  <div class="hc-form-group hc-form-conner">
+    <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项四</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame" ctf="hc_cbcore">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项五</label>
+    </div>
+  </div>
+</div>
+<p class="source">显示代码</p>
+
+``` html
+<div class="hc-form-group hc-form-conner">
+  <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项四</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame" ctf="hc_cbcore">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项五</label>
+  </div>
+</div>
+```
+###### 圆弧复选按钮
+只需要在`hc-form-group`加上`hc-form-rounder`即可！
+<div class="code-pre">
+  <div class="hc-form-group hc-form-rounder">
+    <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项四</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame" ctf="hc_cbcore">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项五</label>
+    </div>
+  </div>
+</div>
+<p class="source">显示代码</p>
+
+``` html
+<div class="hc-form-group hc-form-rounder">
+  <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项四</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame" ctf="hc_cbcore">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项五</label>
+  </div>
+</div>
+```
+###### 复选列表
+同`radio-list`类似！
+<div class="code-pre">
+  <div class="hc-form-group hc-full">
+    <div class="hc-form-checkbox-list hc-primary hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-list hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-list hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+    <div class="hc-form-checkbox-list hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项四</label>
+    </div>
+    <div class="hc-form-checkbox-list hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame" ctf="hc_cbcore">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项五</label>
+    </div>
+  </div>
+</div>
+<p class="source">显示代码</p>
+
+``` html
+<div class="hc-form-group hc-full">
+  <div class="hc-form-checkbox-list hc-primary hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-list hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-list hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+  <div class="hc-form-checkbox-list hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项四</label>
+  </div>
+  <div class="hc-form-checkbox-list hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame" ctf="hc_cbcore">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项五</label>
+  </div>
+</div>
+```
+###### 不同尺寸
+只需要在`hc-form-group`上加上`hc-form-mini`,`hc-form-small`,`hc-form-medium`,`hc-form-large`即可！
+<div class="code-pre">
+  <div class="hc-form-group hc-form-mini">
+    <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+  </div>
+  <div class="hc-form-group hc-form-small">
+    <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+  </div>
+  <div class="hc-form-group hc-form-medium">
+    <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+  </div>
+  <div class="hc-form-group hc-form-large">
+    <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+  </div>
+</div>
+<p class="source">显示代码</p>
+
+``` html
+<div class="hc-form-group hc-form-mini">
+  <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+</div>
+<div class="hc-form-group hc-form-small">
+  <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+</div>
+<div class="hc-form-group hc-form-medium">
+  <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+</div>
+<div class="hc-form-group hc-form-large">
+  <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+</div>
+```
+###### 不同颜色
+同 `hc-button`和`hc-radio`!
+<div class="code-pre">
+  <div class="hc-form-group">
+    <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-primary ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+  </div>
+  <div class="hc-form-group">
+    <div class="hc-form-checkbox-button hc-success hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-success ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-success ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+  </div>
+  <div class="hc-form-group">
+    <div class="hc-form-checkbox-button hc-warning hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-warning ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-warning ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+  </div>
+  <div class="hc-form-group">
+    <div class="hc-form-checkbox-button hc-danger hc-form-checkbox-active">
+      <input class="hc-form-core" type="checkbox" value="1">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-danger ">
+      <input class="hc-form-core" type="checkbox" value="2">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项二</label>
+    </div>
+    <div class="hc-form-checkbox-button hc-danger ">
+      <input class="hc-form-core" type="checkbox" value="3">
+      <span class="hc-form-frame">
+        <i class="hc-iconfont hc-icon-checkbox"></i>
+      </span>
+      <label class="hc-form-label">项三</label>
+    </div>
+  </div>
+</div>
+<p class="source">显示代码</p>
+
+``` html
+<div class="hc-form-group">
+  <div class="hc-form-checkbox-button hc-primary hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-primary ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+</div>
+<div class="hc-form-group">
+  <div class="hc-form-checkbox-button hc-success hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-success ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-success ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+</div>
+<div class="hc-form-group">
+  <div class="hc-form-checkbox-button hc-warning hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-warning ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-warning ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+</div>
+<div class="hc-form-group">
+  <div class="hc-form-checkbox-button hc-danger hc-form-checkbox-active">
+    <input class="hc-form-core" type="checkbox" value="1">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label" ctf="hc_cblabel">项一</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-danger ">
+    <input class="hc-form-core" type="checkbox" value="2">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项二</label>
+  </div>
+  <div class="hc-form-checkbox-button hc-danger ">
+    <input class="hc-form-core" type="checkbox" value="3">
+    <span class="hc-form-frame">
+      <i class="hc-iconfont hc-icon-checkbox"></i>
+    </span>
+    <label class="hc-form-label">项三</label>
+  </div>
+</div>
+```

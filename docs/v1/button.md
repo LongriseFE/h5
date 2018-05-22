@@ -399,3 +399,26 @@
   </button>
 </div>
 <p class="source">显示代码</p>
+
+``` html
+<button class="hc-button hc-button-primary" disabled data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">默认按钮</span>
+</button>
+<button class="hc-button-conner hc-button-primary" disabled data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">默认按钮</span>
+</button>
+<button class="hc-button-rounder hc-button-primary" disabled data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">默认按钮</span>
+</button>
+<button class="hc-button-rounder hc-button-outline hc-button-primary" disabled data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">默认按钮</span>
+</button>
+<button class="hc-button-text hc-button-primary" disabled data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">默认按钮</span>
+</button>
+```

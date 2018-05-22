@@ -1711,6 +1711,8 @@ a,button,input,optgroup,select,textarea {
   box-sizing: border-box;
   -webkit-box-sizing:border-box;
   pointer-events: none;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
 }
 .hc-form-input-light,
 .hc-form-textarea-light{
@@ -1791,9 +1793,8 @@ a,button,input,optgroup,select,textarea {
   border-radius:30px;
 }
 /* 获取焦点 */
-.hc-form-input-focus{
+.hc-form-input-focus:before{
   border-color:#249FEA;
-  color:#249FEA;
 }
 /* 不同尺寸 */
 .hc-form-input.hc-form-mini,
@@ -4311,4 +4312,17 @@ a,button,input,optgroup,select,textarea {
 }
 .hc-tree-danger .hc-tree-handle-label{
   color:#f3563d;
+}
+
+.hc-primary.hc-form-input-focus:before{
+  border-color:#2296E7;
+}
+.hc-success.hc-form-input-focus:before {
+  border-color: #30B63F;
+}
+.hc-warning.hc-form-input-focus:before {
+  border-color: #FFAF00;
+}
+.hc-danger.hc-form-input-focus:before {
+  border-color: #f3563d;
 }

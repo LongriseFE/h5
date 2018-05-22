@@ -22,4 +22,10 @@ window.onload = function () {
   $('.content').delegate('.hc-form-checkbox,.hc-form-checkbox-circle,.hc-form-checkbox-button,.hc-form-checkbox-list', 'click', function () {
     $(this).toggleClass('hc-form-checkbox-active');
   });
+  $('.content').delegate('.hc-form-input', 'focus', function () {
+    $(this).addClass('hc-form-input-focus');
+  });
+  $('.content').delegate('.hc-form-input', 'blur', function () {
+    $(this).removeClass('hc-form-input-focus');
+  });
 };
