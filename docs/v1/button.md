@@ -37,7 +37,7 @@
     <span class="hc-button-icon"></span>
     <span class="hc-button-label">默认按钮</span>
   </button>
-  <button class="hc-button-round" data-ripple="ripple">
+  <button class="hc-button-rounder" data-ripple="ripple">
     <span class="hc-button-icon"></span>
     <span class="hc-button-label">默认按钮</span>
   </button>
@@ -164,7 +164,7 @@
     <span class="hc-button-icon"></span>
     <span class="hc-button-label">默认按钮</span>
   </button>
-  <button class="hc-button-round hc-button-outline hc-button-primary" data-ripple="ripple">
+  <button class="hc-button-rounder hc-button-outline hc-button-primary" data-ripple="ripple">
     <span class="hc-button-icon"></span>
     <span class="hc-button-label">默认按钮</span>
   </button>
@@ -184,7 +184,7 @@
   <span class="hc-button-icon"></span>
   <span class="hc-button-label">默认按钮</span>
 </button>
-<button class="hc-button-round hc-button-outline hc-button-primary" data-ripple="ripple">
+<button class="hc-button-rounder hc-button-outline hc-button-primary" data-ripple="ripple">
   <span class="hc-button-icon"></span>
   <span class="hc-button-label">默认按钮</span>
 </button>
@@ -194,3 +194,208 @@
 </button>
 </button>
 ```
+###### 文字按钮
+为了页面的协调性，譬如一个列表后面都跟着一个按钮，这时候如果选用上面那些按钮，就会显得不协调，这时候就需要用文字按钮替代。
+<div class="code-pre">
+  <button class="hc-button-text hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-text hc-button-success" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-text hc-button-warning" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-text hc-button-danger" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">删除</span>
+  </button>
+</div>
+<p class="source">显示代码</p>
+
+``` html
+<button class="hc-button-text hc-button-primary" data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">默认按钮</span>
+</button>
+<button class="hc-button-text hc-button-success" data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">默认按钮</span>
+</button>
+<button class="hc-button-text hc-button-warning" data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">默认按钮</span>
+</button>
+<button class="hc-button-text hc-button-danger" data-ripple="ripple">
+  <span class="hc-button-icon"></span>
+  <span class="hc-button-label">删除</span>
+</button>
+```
+###### 按钮组
+一组按钮，可以将`hc-form-conner`，`hc-form-rounder`放在`hc-form-group`上面代替单个按钮`hc-button-conner`，`hc-button-rounder`。
+<div class="code-pre">
+  <div class="hc-form-group">
+    <button class="hc-button hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    <button class="hc-button hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    </button>
+  </div>
+  <div class="hc-form-group hc-form-conner" style="margin-top:1rem;">
+    <button class="hc-button hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    <button class="hc-button hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    </button>
+  </div>
+  <div class="hc-form-group hc-form-rounder" style="margin-top:1rem;">
+    <button class="hc-button hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    <button class="hc-button hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    </button>
+  </div>
+  <div class="hc-form-group" style="margin-top:1rem;">
+    <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    </button>
+  </div>
+  <div class="hc-form-group hc-form-conner" style="margin-top:1rem;">
+    <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    </button>
+  </div>
+  <div class="hc-form-group hc-form-rounder" style="margin-top:1rem;">
+    <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+      <span class="hc-button-icon"></span>
+      <span class="hc-button-label">默认按钮</span>
+    </button>
+    </button>
+  </div>
+</div>
+<p class="source">显示代码</p>
+
+``` html
+<div class="hc-form-group">
+  <button class="hc-button hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  </button>
+</div>
+<div class="hc-form-group hc-form-conner" style="margin-top:1rem;">
+  <button class="hc-button hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  </button>
+</div>
+<div class="hc-form-group hc-form-rounder" style="margin-top:1rem;">
+  <button class="hc-button hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  </button>
+</div>
+<div class="hc-form-group" style="margin-top:1rem;">
+  <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  </button>
+</div>
+<div class="hc-form-group hc-form-conner" style="margin-top:1rem;">
+  <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  </button>
+</div>
+<div class="hc-form-group hc-form-rounder" style="margin-top:1rem;">
+  <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-outline hc-button-primary" data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  </button>
+</div>
+```
+###### 禁用状态
+涉及到权限操作的时候，希望有些操作可以禁止，就用到了按钮的禁用状态！
+<div class="code-pre">
+  <button class="hc-button hc-button-primary" disabled data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-conner hc-button-primary" disabled data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-rounder hc-button-primary" disabled data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-rounder hc-button-outline hc-button-primary" disabled data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+  <button class="hc-button-text hc-button-primary" disabled data-ripple="ripple">
+    <span class="hc-button-icon"></span>
+    <span class="hc-button-label">默认按钮</span>
+  </button>
+</div>
+<p class="source">显示代码</p>

@@ -350,9 +350,9 @@
 </div>
 ```
 ###### 单选列表
-单选列表只需要将`hc-form-radio`改成`hc-form-radio-list`，并且将`hc-form-frame`里面的图标换成`hc-icon-checkbox`。
+单选列表只需要将`hc-form-radio`改成`hc-form-radio-list`，并且将`hc-form-frame`里面的图标换成`hc-icon-checkbox`。但是有一点，单选列表的宽度默认根据内容来确定，如果我们需要一个铺满的`radio-list`，需要另外加上`hc-full`来控制它的宽度。
 <div class="code-pre">
-  <div class="hc-form-group hc-rounder hc-form-end">
+  <div class="hc-form-group hc-rounder hc-form-end hc-full">
     <div class="hc-form-radio-list hc-primary hc-form-radio-active">
       <input class="hc-form-core" type="radio" value="1">
       <span class="hc-form-frame">
@@ -379,7 +379,7 @@
 <p class="source">显示代码</p>
 
 ``` html
-<div class="hc-form-group hc-rounder hc-form-end">
+<div class="hc-form-group hc-rounder hc-form-end hc-full">
   <div class="hc-form-radio-list hc-primary hc-form-radio-active">
     <input class="hc-form-core" type="radio" value="1">
     <span class="hc-form-frame">

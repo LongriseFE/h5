@@ -15,7 +15,11 @@ window.onload = function () {
     }
   };
   // 单选按钮
-  $('.hc-form-radio,.hc-form-radio-button,.hc-form-radio-list').click(function(){
+  $('.content').delegate('.hc-form-radio,.hc-form-radio-button,.hc-form-radio-list', 'click', function () {
     $(this).addClass('hc-form-radio-active').siblings().removeClass('hc-form-radio-active');
+  });
+  // 复选
+  $('.content').delegate('.hc-form-checkbox,.hc-form-checkbox-circle,.hc-form-checkbox-button,.hc-form-checkbox-list', 'click', function () {
+    $(this).toggleClass('hc-form-checkbox-active');
   });
 };
