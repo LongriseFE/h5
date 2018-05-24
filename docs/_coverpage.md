@@ -1,2 +1,2 @@
-[开始](/v1/page.md)
+[开始](/v1/layout.md)
 [github](/v1/page.md)
