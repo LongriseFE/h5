@@ -15,6 +15,8 @@
 .hc-badge-dot{
   font-size:0;
   padding:3px;
+  min-width:auto;
+  height:auto;
 }
 body,input,textarea{
   font-family:-apple-system,
@@ -118,6 +120,7 @@ a,button,input,optgroup,select,textarea {
   -webkit-justify-content:flex-start;
   position: relative;
   background:#f5f5f5;
+  overflow-x:hidden;
 }
 .hc-page-view-footer{
   display:flex;
@@ -1694,7 +1697,9 @@ a,button,input,optgroup,select,textarea {
 .hc-form-input-dark{
   background:#F4F4F4;
 }
-.hc-form-input:before{
+.hc-form-input:before,
+.hc-form-input-subline:before,
+.hc-form-textarea:before{
   content:"";
   display: inline-block;
   width:200%;
@@ -1713,6 +1718,11 @@ a,button,input,optgroup,select,textarea {
   pointer-events: none;
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
+}
+.hc-form-input-subline:before{
+  border-top:none;
+  border-left:none;
+  border-right:none;
 }
 .hc-form-input-light,
 .hc-form-textarea-light{
@@ -1774,6 +1784,10 @@ a,button,input,optgroup,select,textarea {
 .hc-form-input-subline .hc-form-frame{
   width:auto;
   border:none;
+  padding-right:0.5rem;
+}
+.hc-form-input-light .hc-form-frame{
+  padding:0;
 }
 .hc-form-input-subline .hc-form-label,
 .hc-form-input-subline .hc-form-frame{
@@ -1784,13 +1798,13 @@ a,button,input,optgroup,select,textarea {
 }
 
 /* conner */
-.hc-conner.hc-form-input,
-.hc-conner.hc-form-textarea{
-  border-radius:5px;
+.hc-conner.hc-form-input:before,
+.hc-conner.hc-form-textarea:before{
+  border-radius:10px;
 }
 /* rounder */
-.hc-rounder.hc-form-input{
-  border-radius:30px;
+.hc-rounder.hc-form-input:before{
+  border-radius:40px;
 }
 /* 获取焦点 */
 .hc-form-input-focus:before{
@@ -3499,7 +3513,7 @@ a,button,input,optgroup,select,textarea {
 .hc-form-value-label{
   font-size:0.75rem;
   color:#333;
-  padding:0 0 0 0.5rem;
+  /* padding:0 0 0 0.5rem; */
   line-height:1.2;
   display:flex;
   display:-webkit-flex;

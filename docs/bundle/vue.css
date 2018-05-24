@@ -1025,3 +1025,11 @@ pre[data-lang=html]{
   background:#F9FAFC;
   color:#249FEA;
 }
+.code-pre p{
+  margin:0;
+}
+.code-pre h2,.code-pre h3,.code-pre h4{
+  margin:0;
+  font-weight:normal;
+  color:#474646;
+}

@@ -22,10 +22,14 @@ window.onload = function () {
   $('.content').delegate('.hc-form-checkbox,.hc-form-checkbox-circle,.hc-form-checkbox-button,.hc-form-checkbox-list', 'click', function () {
     $(this).toggleClass('hc-form-checkbox-active');
   });
-  $('.content').delegate('.hc-form-input', 'focus', function () {
+  $('.content').delegate('.hc-form-input,.hc-form-input-subline,.hc-form-textarea', 'focus', function () {
     $(this).addClass('hc-form-input-focus');
   });
-  $('.content').delegate('.hc-form-input', 'blur', function () {
+  $('.content').delegate('.hc-form-input,.hc-form-input-subline,.hc-form-textarea', 'blur', function () {
     $(this).removeClass('hc-form-input-focus');
+  });
+   // 复选
+   $('.content').delegate('.hc-form-switch', 'click', function () {
+    $(this).toggleClass('hc-form-switch-active');
   });
 };
